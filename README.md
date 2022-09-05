@@ -1,3 +1,5 @@
-# node-tbgk18
+# Event Logger
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/node-tbgk1702318)
+Simple Event logger running on Node.
+
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/node-tbgk118)
