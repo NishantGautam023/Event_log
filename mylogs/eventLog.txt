@@ -1,0 +1,1 @@
+20220905	15:35:42	445b557c-bf2a-4c2b-945b-62135e144e36	log event emitted!!

@@ -1,3 +1,14 @@
-// run `node index.js` in the terminal
+const logEvents = require('./logEvents');
+const EventEmiiter = require('events');
 
-console.log(`Hello Node.js v${process.versions.node}!`);
+class MyEmitter extends EventEmiiter {} // From DOCS;
+
+const myEmitter = new MyEmitter();
+
+myEmitter.on('log', (msg) => {
+  logEvents(msg);
+});
+
+setTimeout(() => {
+  myEmitter.emit('log', 'log event emitted!!');
+}, 2000);
